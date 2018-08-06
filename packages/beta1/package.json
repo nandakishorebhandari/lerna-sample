@@ -1,6 +1,6 @@
 {
-  "name": "@nandab/beta",
-  "version": "1.0.6",
+  "name": "beta",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "gitHead": "46d4f09317fb35a765a165b8eb81c8bb03338473"
+  "license": "ISC"
 }

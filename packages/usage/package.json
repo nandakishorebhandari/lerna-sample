@@ -1,6 +1,6 @@
 {
   "name": "@nandab/usage",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@nandab/alpha": "^1.0.5",
-    "@nandab/beta": "^1.0.5"
+    "@nandab/beta": "^1.0.6"
   },
-  "gitHead": "14d9d80f7c87da24cb92608ac5c5c46fda71c696"
+  "gitHead": "46d4f09317fb35a765a165b8eb81c8bb03338473"
 }

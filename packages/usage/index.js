@@ -1,3 +1,3 @@
-var alpha = require('alpha')
-var beta = require('beta')
+var alpha = require('@nandab/alpha')
+var beta = require('@nandab/beta')
 console.log(alpha + " " + beta)

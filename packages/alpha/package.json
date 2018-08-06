@@ -1,0 +1,13 @@
+{
+  "name": "@nandab/alpha",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gitHead": "14d9d80f7c87da24cb92608ac5c5c46fda71c696"
+}

@@ -1,0 +1,71 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   progress: true,
+0 silly argv   sort: true,
+0 silly argv   ci: false,
+0 silly argv   loglevel: 'info',
+0 silly argv   lernaVersion: '3.0.0-rc.0',
+0 silly argv   '$0': 'lerna' }
+1 info version 3.0.0-rc.0
+2 verbose rootPath /home/nanda/Documents/learn/lerna/lerna-tutorial
+3 info current version 1.0.3
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly isBehindUpstream
+9 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 4
+10 silly hasTags
+11 verbose hasTags true
+12 info Looking for changed packages since v1.0.3.
+13 silly diffSinceIn v1.0.3 packages/alpha
+14 silly diff packages/alpha/package.json
+15 silly diffSinceIn v1.0.3 packages/beta1
+16 silly diff
+17 silly diffSinceIn v1.0.3 packages/usage
+18 silly diff packages/usage/package.json
+19 verbose updated @nandab/alpha
+20 verbose updated @nandab/usage
+21 silly batched [ PackageGraphNode {
+21 silly batched     name: '@nandab/alpha',
+21 silly batched     externalDependencies: Map {},
+21 silly batched     localDependencies: Map {},
+21 silly batched     localDependents: Map { '@nandab/usage' => [Object] } } ]
+22 silly batched [ PackageGraphNode {
+22 silly batched     name: '@nandab/usage',
+22 silly batched     externalDependencies: Map { '@nandab/beta' => [Object] },
+22 silly batched     localDependencies: Map {},
+22 silly batched     localDependents: Map {} } ]
+23 warn ENOLICENSE Packages @nandab/alpha, @nandab/usage are missing a license
+24 silly gitAdd [ '/home/nanda/Documents/learn/lerna/lerna-tutorial/packages/usage/package.json',
+24 silly gitAdd   '/home/nanda/Documents/learn/lerna/lerna-tutorial/packages/alpha/package.json',
+24 silly gitAdd   '/home/nanda/Documents/learn/lerna/lerna-tutorial/lerna.json' ]
+25 silly gitCommit v1.0.4
+26 verbose commit [ 'commit', '--no-verify', '-m', 'v1.0.4' ]
+27 silly gitTag v1.0.4
+28 info publish Publishing packages to npm...
+29 silly getCurrentSHA
+30 verbose getCurrentSHA 930c1ba3c346cb9d93d92aee67f666e5751f1cea
+31 verbose publishing @nandab/alpha
+32 silly npmPublish undefined '@nandab/alpha'
+33 silly getExecOpts { cwd: '/home/nanda/Documents/learn/lerna/lerna-tutorial/packages/alpha',
+33 silly getExecOpts   pkg: Package { name: '@nandab/alpha' } }
+34 info published @nandab/alpha
+35 verbose publishing @nandab/usage
+36 silly npmPublish undefined '@nandab/usage'
+37 silly getExecOpts { cwd: '/home/nanda/Documents/learn/lerna/lerna-tutorial/packages/usage',
+37 silly getExecOpts   pkg: Package { name: '@nandab/usage' } }
+38 info published @nandab/usage
+39 silly gitCheckout packages/*/package.json
+40 silly gitCheckout /home/nanda/Documents/learn/lerna/lerna-tutorial
+41 success published 2 packages
+42 info git Pushing tags...
+43 silly gitPush origin master
+44 error Error: Command failed: git push --follow-tags --no-verify origin master
+44 error ERROR: Permission to reggi/lerna-tutorial.git denied to nandakishorebhandari.
+44 error fatal: Could not read from remote repository.
+44 error
+44 error Please make sure you have the correct access rights
+44 error and the repository exists.
+44 error
+44 error     at makeError (/home/nanda/.nvm/versions/node/v6.12.2/lib/node_modules/lerna/node_modules/execa/index.js:172:9)
+44 error     at Promise.all.then.arr (/home/nanda/.nvm/versions/node/v6.12.2/lib/node_modules/lerna/node_modules/execa/index.js:277:16)

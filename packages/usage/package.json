@@ -1,0 +1,20 @@
+{
+  "name": "@nandab/usage",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nandab/alpha": "^1.0.4",
+    "@nandab/beta": "^1.0.0"
+  },
+  "gitHead": "14d9d80f7c87da24cb92608ac5c5c46fda71c696"
+}

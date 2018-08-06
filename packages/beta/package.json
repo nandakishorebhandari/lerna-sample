@@ -1,6 +1,6 @@
 {
-  "name": "beta",
-  "version": "1.0.5",
+  "name": "@nandab/beta",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
